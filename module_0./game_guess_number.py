@@ -9,7 +9,7 @@ print("Загадано число от 1 до 100")
 def guess_num(number):                                      # функция , которая угадывает число
     count = 0                                               # счетчик попыток
     low_predict = 1                                         # нижняя граница числа
-    high_predict = 100.                                     # верхняя граница числа
+    high_predict = 100                                      # верхняя граница числа
     
     while low_predict <= high_predict:
         middle_predict = (low_predict + high_predict) // 2  # средняя граница числа
